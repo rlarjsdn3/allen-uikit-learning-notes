@@ -30,17 +30,19 @@
 
 | 이미지 ① |
 | :--: |
-| <img src="" align="center" width="235" height="511"> |
+| <img src="https://user-images.githubusercontent.com/21079970/224633728-158e89a6-028d-4789-b5aa-b1bb31907d1b.gif" align="center" width="235" height="511"> |
 
 <br>
 
 ## 03-RPS_Game
 
-**작품명** [Rock, Scissor, paper Game](03-RPSGame) <br>
+**작품명** [Rock, Scissor, Paper Game](03-RPSGame) <br>
 **게시일**  2023년 3월 13일(월) <br>
 
 | 이미지 ① |
 | :--: |
-| <img src="" align="center" width="235" height="511"> |
+| <img src="https://user-images.githubusercontent.com/21079970/224633745-116fda4a-354f-4dcb-b8b3-6b2fdefe6c38.gif" align="center" width="235" height="511"> |
 
 <br>
+
+
