@@ -10,6 +10,8 @@
 * [01-Hello_UIKit!](#01-Hello_UIKit!)
 * [02-Dice_Game](#02-Dice_Game)
 * [03-RPS_Game](#03-RPS_Game)
+* [04-RandomBingo(CLI)(#04-RandomBingo(CLI))]
+* [05-RandomBingo(#05-RandomBingo)]
 
 # Projects
 ## 01-Hello_UIKit!
@@ -42,6 +44,24 @@
 | 이미지 ① |
 | :--: |
 | <img src="https://user-images.githubusercontent.com/21079970/224633745-116fda4a-354f-4dcb-b8b3-6b2fdefe6c38.gif" align="center" width="235" height="511"> |
+
+<br>
+
+## 04-RandomBingo(CLI)
+
+**작품명** [Random Bingo Game(CLI)](04-RandomBingo(CLI)) <br>
+**게시일**  2023년 3월 18일(토) <br>
+
+<br>
+
+## 05-RandomBingo
+
+**작품명** [Random Bingo Game](05-RadomBingo) <br>
+**게시일**  2023년 3월 18일(토) <br>
+
+| 이미지 ① |
+| :--: |
+| <img src="https://user-images.githubusercontent.com/21079970/226085144-9c0f213a-ed3e-4115-8450-4d2ec9ad04f1.gif" align="center" width="235" height="511"> |
 
 <br>
 
