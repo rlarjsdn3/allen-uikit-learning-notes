@@ -109,6 +109,6 @@
 
 | 이미지 ① |
 | :--: |
-| <img src="<source>" align="center" width="235" height="511"> |
+| <img src="https://github.com/rlarjsdn3/uikit-learning-notes/assets/21079970/153ce8db-d615-4429-9d61-cf047b23bd76" align="center" width="235" height="511"> |
 
 <br>
