@@ -161,6 +161,6 @@
 
 | 이미지 |
 | :--: |
-| <img src="" align="center" width="235" height="511"> |
+| <img src="https://github.com/rlarjsdn3/uikit-learning-notes/assets/21079970/877e5a16-1574-45fa-9909-990dc7f91728" align="center" width="235" height="511"> |
 
 <br>
