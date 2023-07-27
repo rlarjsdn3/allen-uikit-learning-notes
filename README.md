@@ -147,7 +147,7 @@
 
 | 이미지 |
 | :--: |
-| <img src="" align="center" width="235" height="511"> |
+| <img src="https://github.com/rlarjsdn3/uikit-learning-notes/assets/21079970/ca36bd6d-5ce1-42e7-82d2-2afb15c5250a" align="center" width="235" height="511"> |
 
 <br>
 
