@@ -18,7 +18,8 @@
 * [09-BMI](#08-BMI)
 * [10-BMI(MVC)](#10-BMI(MVC))
 * [11-Login(MVC)](#11-Login(MVC))
-* 12-NavTab
+* [12-NavTab(Storyboard)](#12-NavTab(Storyboard))
+* [12-NavTab(Code)](#12-NavTab(Code))
 * [13-TableView](#13-TableView)
 * [14-MemberList](#14-MemberList)
 
@@ -132,10 +133,17 @@
 
 <br>
 
-## 12-NavTab
+## 12-NavTab(Storyboard)
 
-**프로젝트** [12-NavTab](12-NavTab) <br>
-**게시일자**  0000년 0월 00일(0) <br>
+**프로젝트** [12-NavTab(Storyboard)](12-NavTab(Storyboard)) <br>
+**게시일자**  2023년 7월 24일(목) <br>
+
+<br>
+
+## 12-NavTab(Code)
+
+**프로젝트** [12-NavTab(Code)](12-NavTab(Code)) <br>
+**게시일자**  2023년 7월 23일(목) <br>
 
 | 이미지 |
 | :--: |
