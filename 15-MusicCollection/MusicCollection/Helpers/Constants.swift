@@ -18,7 +18,7 @@ public struct MusicURL {
 
 // 사용하겔 될 Cell 문자열 묶음
 public struct Cell {
-    static let musicCellIdentifier = "MusicCell"
+    static let musicCellIdentifier = "MusicTableViewCell"
     static let musicCollectionCellIdentifier = "MusicCollectionCellIdentifier"
     private init() { }
 }

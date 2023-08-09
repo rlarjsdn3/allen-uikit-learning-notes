@@ -13,7 +13,7 @@ class MusicTableViewCell: UITableViewCell {
     @IBOutlet weak var songNameLabel: UILabel!
     @IBOutlet weak var artistNameLabel: UILabel!
     @IBOutlet weak var albumNameLabel: UILabel!
-    @IBOutlet weak var releaseDataLabel: UILabel!
+    @IBOutlet weak var releaseDateLabel: UILabel!
     
     // 이미지 URL을 전달받는 속성
     var imageUrl: String? {

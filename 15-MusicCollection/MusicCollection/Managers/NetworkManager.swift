@@ -26,7 +26,7 @@ final class NetworkManager {
     typealias NetworkCompletion = (Result<[Music], NetworkError>) -> Void
     
     // 음악 데이터를 요청하는 메서드
-    func fetchMusic(searchTerm: String, completionHandler: NetworkCompletion) {
+    func fetchMusic(searchTerm: String, completionHandler: @escaping NetworkCompletion) {
         // 호출 URL 선언하기
         let urlString = "\(MusicURL.requestUrl)\(MusicURL.mediaParam)&term=\(searchTerm)"
         // URL로 음악 데이터 요청하기
@@ -36,7 +36,7 @@ final class NetworkManager {
     }
     
     // 음악 데이터를 서버로부터 불러오는 메서드
-    func performRequest(with url: String, completionHandler: NetworkCompletion) {
+    func performRequest(with url: String, completionHandler: @escaping NetworkCompletion) {
         // url을 URL구조체로 래핑하기
         guard let url = URL(string: url) else {
             completionHandler(.failure(.networkingError))

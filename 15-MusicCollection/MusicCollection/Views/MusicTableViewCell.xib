@@ -68,7 +68,7 @@
                 <outlet property="albumNameLabel" destination="WZz-lr-EQW" id="LYU-Ns-Pze"/>
                 <outlet property="artistNameLabel" destination="bcZ-kQ-m9I" id="NSJ-EH-G2y"/>
                 <outlet property="mainImageView" destination="vdx-0h-MPe" id="1Zd-CV-PLi"/>
-                <outlet property="releaseDataLabel" destination="aus-Lp-Xie" id="bXP-OA-Fsk"/>
+                <outlet property="releaseDateLabel" destination="aus-Lp-Xie" id="GXX-i3-vIm"/>
                 <outlet property="songNameLabel" destination="rG8-ZM-Xfs" id="3OJ-lb-x9p"/>
             </connections>
             <point key="canvasLocation" x="189.31297709923663" y="47.183098591549296"/>
