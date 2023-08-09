@@ -23,14 +23,14 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        setupData()
+        setupData(searchTerm: "coldplay")
         setupSearchBar()
         setupTable()
     }
     
     // 데이터 셋업을 위한 메서드
-    func setupData() {
-        networkManager.fetchMusic(searchTerm: "Coldplay") { result in
+    func setupData(searchTerm: String) {
+        networkManager.fetchMusic(searchTerm: searchTerm) { result in
             switch result {
             case .success(let data):
                 self.musicArrays = data
@@ -70,7 +70,9 @@ final class ViewController: UIViewController {
 }
 
 extension ViewController: UISearchBarDelegate {
-    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        setupData(searchTerm: searchText)
+    }
 }
 
 extension ViewController: UITableViewDataSource {
@@ -95,5 +97,7 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return tableView.estimatedRowHeight
+    }
 }
