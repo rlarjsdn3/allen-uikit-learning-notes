@@ -22,6 +22,7 @@
 * [12-NavTab(Code)](#12-NavTab(Code))
 * [13-TableView](#13-TableView)
 * [14-MemberList](#14-MemberList)
+* [15-MusicCollection](#15-MusicCollection)
 
 # Projects
 ## 01-Hello_UIKit!
@@ -170,5 +171,16 @@
 | 이미지 |
 | :--: |
 | <img src="https://github.com/rlarjsdn3/uikit-learning-notes/assets/21079970/877e5a16-1574-45fa-9909-990dc7f91728" align="center" width="235" height="511"> |
+
+<br>
+
+## 15-MusicCollection
+
+**프로젝트** [15-MusicCollection](15-MusicCollection) <br>
+**게시일자**  2023년 8월 10일(목) <br>
+
+| 이미지 |
+| :--: |
+| <img src="https://github.com/rlarjsdn3/uikit-learning-notes/assets/21079970/5475ce80-2768-4716-af4a-ec4095a71036" align="center" width="235" height="511"> |
 
 <br>
