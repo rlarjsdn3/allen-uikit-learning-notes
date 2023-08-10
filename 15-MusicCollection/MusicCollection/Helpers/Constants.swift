@@ -19,7 +19,13 @@ public struct MusicURL {
 // 사용하겔 될 Cell 문자열 묶음
 public struct Cell {
     static let musicCellIdentifier = "MusicTableViewCell"
-    static let musicCollectionCellIdentifier = "MusicCollectionCellIdentifier"
+    static let musicCollectionCellIdentifier = "MusicCollectionViewCell"
     private init() { }
 }
 
+// 컬렉션 뷰 구성을 위한 설정
+public struct CVCell {
+    static let spacingWidth: CGFloat = 1
+    static let cellColumns: CGFloat = 3
+    private init() { }
+}

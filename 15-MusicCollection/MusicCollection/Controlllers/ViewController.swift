@@ -10,7 +10,10 @@ import UIKit
 final class ViewController: UIViewController {
 
     // 서치 컨트롤러 선언
-    let searchController = UISearchController()
+    let searchController = UISearchController(
+        searchResultsController: UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SearchResultViewController")
+        as! SearchResultViewController
+    )
     
     @IBOutlet weak var musicTableView: UITableView!
     
@@ -50,7 +53,7 @@ final class ViewController: UIViewController {
         navigationItem.searchController = searchController
         
         // 단순 서치바 사용을 위한 델리게이트 선언
-        searchController.searchBar.delegate = self
+        searchController.searchResultsUpdater = self
         
         // 첫글자에 대문자 출력하지 않도록 하기
         searchController.searchBar.autocapitalizationType = .none
@@ -69,9 +72,11 @@ final class ViewController: UIViewController {
 
 }
 
-extension ViewController: UISearchBarDelegate {
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        setupData(searchTerm: searchText)
+extension ViewController: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        if let vc = searchController.searchResultsController as? SearchResultViewController {
+            vc.searchTerm = searchController.searchBar.text ?? ""
+        }
     }
 }
 
