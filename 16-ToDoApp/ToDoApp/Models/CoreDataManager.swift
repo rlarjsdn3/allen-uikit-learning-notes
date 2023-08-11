@@ -10,7 +10,7 @@ import Foundation
 final class CoreDataManager {
     
     // 싱글톤으로 만들기
-    let shared = CoreDataManager()
+    static let shared = CoreDataManager()
     private init() { }
     
 }

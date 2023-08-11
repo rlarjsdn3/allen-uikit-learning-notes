@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="157" id="byB-vM-e3C">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="157" id="byB-vM-e3C" customClass="ToDoCell" customModule="ToDoApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="157"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="byB-vM-e3C" id="eif-Q2-H3D">
@@ -46,8 +46,8 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uJa-Rp-aqn">
                                                                     <rect key="frame" x="0.0" y="87" width="353" height="30"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLI-w7-Cma">
-                                                                            <rect key="frame" x="0.0" y="13" width="35.333333333333336" height="17"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLI-w7-Cma">
+                                                                            <rect key="frame" x="0.0" y="13" width="124" height="17"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                             <color key="textColor" systemColor="secondaryLabelColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -67,6 +67,9 @@
                                                                                 <fontDescription key="titleFontDescription" type="system" pointSize="9"/>
                                                                                 <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             </buttonConfiguration>
+                                                                            <connections>
+                                                                                <action selector="updateButtonTapped:" destination="byB-vM-e3C" eventType="touchUpInside" id="tAA-Hw-LD3"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" name="AccentColor"/>
@@ -97,6 +100,12 @@
                                                 <constraint firstItem="t7y-mm-Mva" firstAttribute="leading" secondItem="eif-Q2-H3D" secondAttribute="leading" constant="10" id="qrs-hq-fb1"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="backgroundCell" destination="t7y-mm-Mva" id="daw-H6-EK0"/>
+                                            <outlet property="dateTextLabel" destination="jLI-w7-Cma" id="AYs-FJ-OO0"/>
+                                            <outlet property="todoTextLabel" destination="zAU-K8-34M" id="R6K-Z1-Ru2"/>
+                                            <outlet property="updateButton" destination="QzS-0c-oEv" id="nge-iO-lle"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -118,12 +127,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1063" y="-2"/>
+            <point key="canvasLocation" x="1061.8320610687022" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="RmJ-bs-THF">
             <objects>
-                <viewController id="IFt-Xc-JPo" sceneMemberID="viewController">
+                <viewController id="IFt-Xc-JPo" customClass="DetailViewController" customModule="ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q4R-NE-uPw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

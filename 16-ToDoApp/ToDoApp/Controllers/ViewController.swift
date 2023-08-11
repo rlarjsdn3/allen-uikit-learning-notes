@@ -11,12 +11,16 @@ final class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
+    // 코어 데이터를 관리하는 매니저 (싱글톤)
+    let todoManager = CoreDataManager.shared
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNaviBar()
         
     }
     
+    // 화면에 다시 진입할 때마다 테이블 뷰 리로드
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()
@@ -62,6 +66,4 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 0
     }
-    
-    
 }
