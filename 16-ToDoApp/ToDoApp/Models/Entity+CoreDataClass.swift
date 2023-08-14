@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(Entity)
+@objc(ToDoData)
 public class ToDoData: NSManagedObject {
 
 }

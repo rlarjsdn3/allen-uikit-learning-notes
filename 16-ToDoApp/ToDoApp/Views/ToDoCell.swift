@@ -13,6 +13,7 @@ final class ToDoCell: UITableViewCell {
     @IBOutlet weak var todoTextLabel: UILabel!
     @IBOutlet weak var dateTextLabel: UILabel!
     @IBOutlet weak var updateButton: UIButton!
+    @IBOutlet weak var bottomInfoView: UIView!
     
     // ToDoData를 전달받을 변수
     var toDoData: ToDoData? {
@@ -39,7 +40,12 @@ final class ToDoCell: UITableViewCell {
     
     func configureUIWithData() {
         todoTextLabel.text = toDoData?.memoText
-        // ...
+        dateTextLabel.text = toDoData?.dateString
+        guard let colorNum = toDoData?.color else { return }
+        let color = MyColor(rawValue: colorNum) ?? .red
+        updateButton.backgroundColor = color.buttonColor
+        backgroundCell.backgroundColor = color.backgoundColor
+        bottomInfoView.backgroundColor = color.backgoundColor
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

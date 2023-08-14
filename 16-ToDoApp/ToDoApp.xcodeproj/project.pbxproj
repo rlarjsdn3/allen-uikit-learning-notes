@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E120F552A8A0B8200109F96 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E120F542A8A0B8200109F96 /* MyColor.swift */; };
 		9E43A92F2A85BCCD0082F204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E43A92E2A85BCCD0082F204 /* AppDelegate.swift */; };
 		9E43A9312A85BCCD0082F204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E43A9302A85BCCD0082F204 /* SceneDelegate.swift */; };
 		9E43A9332A85BCCD0082F204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E43A9322A85BCCD0082F204 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E120F542A8A0B8200109F96 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
 		9E43A92B2A85BCCD0082F204 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E43A92E2A85BCCD0082F204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E43A9302A85BCCD0082F204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				9E43A9492A85BD0C0082F204 /* UIColor+Extension.swift */,
+				9E120F542A8A0B8200109F96 /* MyColor.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				9EFE31C92A85D98B00C5A637 /* DetailViewController.swift in Sources */,
 				9E43A9332A85BCCD0082F204 /* ViewController.swift in Sources */,
 				9E43A92F2A85BCCD0082F204 /* AppDelegate.swift in Sources */,
+				9E120F552A8A0B8200109F96 /* MyColor.swift in Sources */,
 				9E43A94D2A85BD5C0082F204 /* Entity+CoreDataClass.swift in Sources */,
 				9E43A94E2A85BD5C0082F204 /* Entity+CoreDataProperties.swift in Sources */,
 				9E43A9312A85BCCD0082F204 /* SceneDelegate.swift in Sources */,
