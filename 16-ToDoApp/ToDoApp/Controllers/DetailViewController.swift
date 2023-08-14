@@ -66,10 +66,21 @@ final class DetailViewController: UIViewController {
         clearButtonColors()
     }
     
+    func setupNavi() {
+        let deleteButton = UIBarButtonItem(
+            barButtonSystemItem: .trash,
+            target: self,
+            action: #selector(trashButtonPressed)
+        )
+        deleteButton.tintColor = UIColor.red
+        navigationItem.rightBarButtonItem = deleteButton
+    }
+    
     func configureUI() {
         // 기존 데이터가 있을 때
         if let toDoData = self.toDoData {
             self.title = "메모 수정하기"
+            setupNavi()
             
             guard let text = toDoData.memoText else { return }
             mainTextView.text = text
@@ -157,6 +168,24 @@ final class DetailViewController: UIViewController {
                 self.navigationController?.popViewController(animated: true)
             }
         }
+    }
+    
+    @objc func trashButtonPressed() {
+        let alert = UIAlertController(title: "삭제", message: "해당 메모를 삭제하시겠습니까?", preferredStyle: .alert)
+        
+        let okButton = UIAlertAction(title: "확인", style: .default) { [weak self] _ in
+            self?.todoManager.deleteToDo(data: (self?.toDoData)!) {
+                print("삭제 완료")
+                // 이전 화면으로 돌아가기
+                self?.navigationController?.popViewController(animated: true)
+            }
+        }
+        let cancelButton = UIAlertAction(title: "취소", style: .cancel)
+        
+        alert.addAction(okButton)
+        alert.addAction(cancelButton)
+        
+        self.present(alert, animated: true)
     }
 }
 

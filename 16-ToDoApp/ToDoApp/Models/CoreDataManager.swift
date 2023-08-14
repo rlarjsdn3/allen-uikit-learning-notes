@@ -38,7 +38,6 @@ final class CoreDataManager {
                 // 임시 저장소에서 (요청서를 통해서) 데이터 가져오기
                 if let fetchedToDoList = try context.fetch(request) as? [ToDoData] {
                     toDoList = fetchedToDoList
-                    print(toDoList)
                 }
             } catch {
                 print("불러오기 실패")
