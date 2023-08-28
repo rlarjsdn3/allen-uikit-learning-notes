@@ -22,7 +22,7 @@
 * [12-NavTab(Code)](#12-NavTab(Code))
 * [13-TableView](#13-TableView)
 * [14-MemberList](#14-MemberList)
-* [15-MusicCollection](#15-MusicCollection)
+* [15-MusicSearch](#15-MusicSearch)
 * [16-ToDoList](#16-ToDoList)
 * [15-MusicWithCoreData](#15-MusicWithCoreData)
 
@@ -176,9 +176,9 @@
 
 <br>
 
-## 15-MusicCollection
+## 15-MusicSearch
 
-**프로젝트** [15-MusicCollection](15-MusicCollection) <br>
+**프로젝트** [15-MusicSearch](15-MusicSearch) <br>
 **게시일자**  2023년 8월 10일(목) <br>
 
 | 이미지 |
@@ -195,16 +195,5 @@
 | 이미지 |
 | :--: |
 | <img src="https://github.com/rlarjsdn3/uikit-learning-notes/assets/21079970/1d23e79e-28b0-4ca9-b4ea-9d3d9216b001" align="center" width="235" height="511"> |
-
-<br>
-
-## 17-MusicWidthCoreData
-
-**프로젝트** [17-MusicWithCoreData](17-MusicWithCoreData) <br>
-**게시일자**  2023년 8월 17일(목) <br>
-
-| 이미지 |
-| :--: |
-| <img src="<주소>" align="center" width="235" height="511"> |
 
 <br>
