@@ -24,7 +24,6 @@
 * [14-MemberList](#14-MemberList)
 * [15-MusicSearch](#15-MusicSearch)
 * [16-ToDoList](#16-ToDoList)
-* [15-MusicWithCoreData](#15-MusicWithCoreData)
 
 # Projects
 ## 01-Hello_UIKit!
