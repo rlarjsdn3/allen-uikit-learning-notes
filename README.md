@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/21079970/224588704-8340a864-0560-4f13-8586-eac4937dcfe5.png" align="center" width="150" height="150">
 
-# UIKit-Learning-Notes
+# Allen-UIKit-Learning-Notes
 ## Overview
 > ⌜iOS 아이폰 앱 개발⌟(인프런, 앨런 저)의 학습 내용을 정리한 저장소입니다.
 
