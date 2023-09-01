@@ -25,6 +25,7 @@
 * [15-MusicSearch](#15-MusicSearch)
 * [16-ToDoList](#16-ToDoList)
 * [17-BasicMusic(MVC)](#17-BasicMusic(MVC))
+* [18-BasicMusic(MVVM)](#17-BasicMusic(MVVM))
 
 # Projects
 ## 01-Hello_UIKit!
@@ -201,6 +202,13 @@
 ## 17-BasicMusic(MVC)
 
 **프로젝트** [17-BasicMusic(MVC)](17-BasicMusic(MVC)) <br>
+**게시일자**  2023년 9월 1일(금) <br>
+
+<br>
+
+## 18-BasicMusic(MVVM)
+
+**프로젝트** [18-BasicMusic(MVVM)](18-BasicMusic(MVVM)) <br>
 **게시일자**  2023년 9월 1일(금) <br>
 
 <br>
