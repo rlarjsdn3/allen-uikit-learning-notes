@@ -16,7 +16,7 @@
 		9E80E9212A6E4B5400F9F61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E80E91F2A6E4B5400F9F61E /* LaunchScreen.storyboard */; };
 		9E80E9292A6E51C800F9F61E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80E9282A6E51C800F9F61E /* MovieCell.swift */; };
 		9E80E92E2A6E53AC00F9F61E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80E92D2A6E53AC00F9F61E /* Movie.swift */; };
-		9E80E9302A6E5ECB00F9F61E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80E92F2A6E5ECB00F9F61E /* DataManager.swift */; };
+		9E80E9302A6E5ECB00F9F61E /* MemberListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80E92F2A6E5ECB00F9F61E /* MemberListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		9E80E9222A6E4B5400F9F61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E80E9282A6E51C800F9F61E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		9E80E92D2A6E53AC00F9F61E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		9E80E92F2A6E5ECB00F9F61E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9E80E92F2A6E5ECB00F9F61E /* MemberListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				9E80E92D2A6E53AC00F9F61E /* Movie.swift */,
-				9E80E92F2A6E5ECB00F9F61E /* DataManager.swift */,
+				9E80E92F2A6E5ECB00F9F61E /* MemberListManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E80E9192A6E4B5100F9F61E /* ViewController.swift in Sources */,
-				9E80E9302A6E5ECB00F9F61E /* DataManager.swift in Sources */,
+				9E80E9302A6E5ECB00F9F61E /* MemberListManager.swift in Sources */,
 				9E80E9152A6E4B5100F9F61E /* AppDelegate.swift in Sources */,
 				9E80E9292A6E51C800F9F61E /* MovieCell.swift in Sources */,
 				9E80E9172A6E4B5100F9F61E /* SceneDelegate.swift in Sources */,

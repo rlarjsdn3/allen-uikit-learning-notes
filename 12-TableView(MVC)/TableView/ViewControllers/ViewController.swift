@@ -11,7 +11,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var dataManager = DataManager()
+    // 멤버리스트를 관리하는 로직
+    let memberListManager = MemberListManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let movies = dataManager.getMovieData()
+        let movies = memberListManager.getMovieData()
         guard let indexPath = sender as? IndexPath else { return }
         
         if segue.identifier == "toDetailView" {
@@ -38,18 +39,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
-        dataManager.addMovieData()
+        memberListManager.addMovieData()
         tableView.reloadData()
     }
 }
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataManager.getMovieData().count
+        return memberListManager.getMovieData().count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let movies = dataManager.getMovieData()
+        let movies = memberListManager.getMovieData()
         if let cell = tableView.dequeueReusableCell(
             withIdentifier: "MovieCell", for: indexPath) as? MovieCell {
             let row = movies[indexPath.row]

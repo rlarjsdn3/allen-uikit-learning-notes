@@ -7,7 +7,9 @@
 
 import UIKit
 
-class DataManager {
+final class MemberListManager {
+    
+    // 멤버리스트를 저장하기 위한 배열
     var movies: [Movie] = []
     
     init() {
